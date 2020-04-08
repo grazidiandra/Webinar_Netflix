@@ -41,7 +41,6 @@ logoFace.png
 </head>
 
 </html>
-
 ```
 
 **IMPORTANTE!**
@@ -50,5 +49,25 @@ Antes de continuar, abra o navegador, clique em arquivo -> abrir e escolha o arq
 Lembre-se de validar as alteraçōes voltando para a janela do navegador e recarregando a página.
 
 
-
 Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma apresentação.
+
+### Folhas de estilo/CSS
+
+1. Vamos colocar a folha de estilo que irá deixar a aparência da página de login de acordo com nossa referência. Para fazer isso, edite o arquivo style.css e coloque todo o conteúdo abaixo:
+
+```
+body {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: Helvetica;
+}
+
+```
+2. Agora que já temos nosso arquivo de estilo, vamos dizer que nosso HTML deve utilizá-lo. Para isso, basta acrescentar mais uma linha no head conforme indicação abaixo:
+
+```html
+<link rel="stylesheet" type="text/css" href="style.css" />
+```
+
+3. Agora volte no navegador e atualize a página!
