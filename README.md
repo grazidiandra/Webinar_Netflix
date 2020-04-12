@@ -36,7 +36,7 @@ logoFace.png
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+ <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
   <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -260,7 +260,7 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
   text-decoration: underline;
 }
 ```
-2. Agora que já temos nosso arquivo de estilo, vamos dizer que nosso HTML deve utilizá-lo. Para isso, basta acrescentar mais uma linha no head conforme indicação abaixo:
+2. Agora que já temos nosso arquivo de estilo, vamos dizer que nosso HTML deve utilizá-lo. Para isso, basta descomentar a linha no head indicada abaixo:
 
 ```html
 <link rel="stylesheet" type="text/css" href="style.css" />
