@@ -12,9 +12,9 @@ Vamos começar montando o esquelto da nossa página:
 
 1. Faça o download desse repositório e descompacte da pasta zip.
 
-2. Dentro desse diretório você vai encontar 2 arquivos (index.html e style.css) e um diretório (images) com as imagem que vamos utilizar;
-
 ![Iron Hack](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images/download.png)
+
+2. Dentro desse diretório você vai encontar 2 arquivos (index.html e style.css) e um diretório (images) com as imagem que vamos utilizar;
 
 4. Agora vamos pegar o código abaixo e colocar dentro da tag <body> no arquivo index.html (que está na raiz do nosso projeto)
 
