@@ -19,6 +19,14 @@ Vamos começar montando o esquelto da nossa página:
 4. Agora vamos pegar o código abaixo e colocar dentro da tag <body> no arquivo index.html (que está na raiz do nosso projeto)
 
 ```
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>NETFLIX CLONE</title>
+</head>
+<body>
   <main class="login">
     <div class="login__background-image"></div>
     <nav class="login__nav">
@@ -52,6 +60,8 @@ Vamos começar montando o esquelto da nossa página:
       </div>
     </section>
   </main>
+</body>
+</html>
 ```
 
 **IMPORTANTE!**
@@ -70,12 +80,11 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   font-family: Helvetica;
 }
 
 .login {
-  height: 100vh;
+  min-height: 100vh;
   background-color: black;
   position: relative;
   z-index: 0;
@@ -85,9 +94,12 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
   position: absolute;
   opacity: 0.5;
   z-index: -1;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  background-image: url("./images/background.jpg");
+  background-image: url("./images/img-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .login__nav {
@@ -103,20 +115,15 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
 .login__form-container {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .login__form {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
   background-color: rgba(0,0,0,0.75);
   width: 450px;
-  height: 650px;
-  padding: 60px 68px 40px 68px;
+  padding: 60px 68px 140px 68px;
   box-sizing: border-box;
   border-radius: 4px;
+  margin-bottom: 50px;
 }
 
 .form__title {
@@ -126,6 +133,7 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
   font-size: 32px;
 }
 
+
 .form__input {
   box-sizing: border-box;
   background-color: #333;
@@ -133,8 +141,7 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
   border: 0;
   color: #fff;
   height: 50px;
-  line-height: 50px;
-  padding: 0px 20px 0;
+  padding-left: 20px;
   width:100%;
   margin-bottom: 16px;
 }
@@ -153,7 +160,8 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
   width: 100%;
   font-size: 16px;
   font-weight: bold;
-  margin: 24px 0 12px;
+  margin-top: 24px;
+  margin-bottom: 12px;
   color: #fff;
   cursor: pointer;
 }
@@ -236,6 +244,7 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
 .form__info-secure a:hover{
   text-decoration: underline;
 }
+
 ```
 2. Agora que já temos nosso arquivo de estilo, vamos dizer que nosso HTML deve utilizá-lo. Para isso, basta descomentar a linha no head indicada abaixo:
 
