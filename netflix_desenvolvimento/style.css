@@ -1,12 +1,11 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   font-family: Helvetica;
 }
 
 .login {
-  height: 100vh;
+  min-height: 100vh;
   background-color: black;
   position: relative;
   z-index: 0;
@@ -16,9 +15,12 @@
   position: absolute;
   opacity: 0.5;
   z-index: -1;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  background-image: url("./images/background.jpg");
+  background-image: url("./images/img-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .login__nav {
@@ -34,26 +36,22 @@
 /* .login__form-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.form__title {
-  color: #fff;
-  font-weight: bold;
-  margin-bottom: 28px;
-  font-size: 32px;
 } */
 
 /* .login__form {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
   background-color: rgba(0,0,0,0.75);
   width: 450px;
   padding: 60px 68px 140px 68px;
   box-sizing: border-box;
   border-radius: 4px;
+  margin-bottom: 50px;
+} */
+
+/* .form__title {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 28px;
+  font-size: 32px;
 } */
 
 
@@ -64,13 +62,12 @@
   border: 0;
   color: #fff;
   height: 50px;
-  line-height: 50px;
-  padding: 0px 20px 0;
+  padding-left: 20px;
   width:100%;
   margin-bottom: 16px;
-}
+} */
 
-.form__input::placeholder {
+/* .form__input::placeholder {
   font-size: 16px;
   color: #8c8c8c;
 } */
@@ -84,12 +81,13 @@
   width: 100%;
   font-size: 16px;
   font-weight: bold;
-  margin: 24px 0 12px;
+  margin-top: 24px;
+  margin-bottom: 12px;
   color: #fff;
   cursor: pointer;
-}
+} */
 
-.form__links {
+/* .form__links {
   color: #b3b3b3;
   width: 100%;
   display: flex;
@@ -136,9 +134,9 @@
   text-decoration: none;
   color: #737373;
   font-size: 13px;
-} */
+}
 
-/* .form__info-signup {
+.form__info-signup {
   color: #737373;
   font-size: 16px;
   margin-top: 16px;
@@ -157,9 +155,9 @@
 .form__info-secure {
   color: #737373;
   font-size: 13px;
-}
+} */
 
-.form__info-secure a {
+/* .form__info-secure a {
   color: #0071eb;
   text-decoration: none;
 }
