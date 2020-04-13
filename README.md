@@ -1,4 +1,4 @@
-![Iron Hack](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images/ih.png)
+![Iron Hack](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images_readme/ih.png)
 
 # Netflix Login by Ironhack
 
@@ -12,7 +12,7 @@ Vamos começar montando o esquelto da nossa página:
 
 1. Faça o download desse repositório e descompacte da pasta zip.
 
-![Iron Hack](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images/download.png)
+![Iron Hack](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images_readme/download.png)
 
 2. Dentro desse diretório você vai encontar 2 arquivos (index.html e style.css) e um diretório (images) com as imagem que vamos utilizar;
 
@@ -245,7 +245,7 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
 
 3. Agora volte no navegador e atualize a página!
 
-![Iron Hack](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images/gif.gif)
+![Iron Hack](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images_readme/gif.gif)
 
 4. Pronto, o seu clone da página de login do Netflix está pronto \o/
 
