@@ -10,36 +10,15 @@ Recomendamos a utilização do editor [Visual Studio Code](https://code.visualst
 
 Vamos começar montando o esquelto da nossa página:
 
-1. Crie um diretório com o nome netflix no seu desktop;
+1. Faça o download desse repositório e descompacte da pasta zip.
 
-2. Dentro desse diretório, crie 2 arquivos (index.html e style.css) e um diretório (images);
+![Iron Hack](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images/download.png)
 
-3. Clique com o botão direito do mouse nas imagens abaixo, escolha a opção "Salvar imagem como..." e grave as imagens dentro do diretório images do seu projeto com os seguintes nomes:
+2. Dentro desse diretório você vai encontar 2 arquivos (index.html e style.css) e um diretório (images) com as imagem que vamos utilizar;
 
-logo.png
-
-![logo](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images/logo.png)
-
-background.jpg
-
-![background](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images/background.jpg)
-
-logoFace.png
-
-![facebook](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images/logoFace.png)
-
-4. Agora vamos pegar o código abaixo e colocar no arquivo index.html que está na raiz do nosso projeto
+4. Agora vamos pegar o código abaixo e colocar dentro da tag <body> no arquivo index.html (que está na raiz do nosso projeto)
 
 ```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
-  <title>NETFLIX CLONE</title>
-</head>
-<body>
   <main class="login">
     <div class="login__background-image"></div>
     <nav class="login__nav">
@@ -55,7 +34,7 @@ logoFace.png
         </form>
         <div class="form__links">
           <span class="form__checkbox">
-            <input class="form__checkbox_input" type="checkbox"> 
+            <input class="form__checkbox-input" type="checkbox"> 
             <label>Lembre-se de mim</label>
           </span>
           <span>
@@ -73,13 +52,11 @@ logoFace.png
       </div>
     </section>
   </main>
-</body>
-</html>
 ```
 
 **IMPORTANTE!**
 
-Antes de continuar, abra o navegador, clique em arquivo -> abrir e escolha o arquivo index.html que você criou e que esta no diretório netflix no seu desktop.
+Antes de continuar, abra o navegador, clique em arquivo -> abrir e escolha o arquivo index.html que você criou e que esta no diretório netflix.
 Lembre-se de validar as alteraçōes voltando para a janela do navegador e recarregando a página.
 
 
@@ -196,7 +173,7 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
   height: 20px;
 }
 
-.form__checkbox_input {
+.form__checkbox-input {
   width: 20px;
   height: 20px;
 }
@@ -267,3 +244,8 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
 ```
 
 3. Agora volte no navegador e atualize a página!
+
+![Iron Hack](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images/gif.gif)
+
+4. Pronto, o seu clone da página de login do Netflix está pronto \o/
+
