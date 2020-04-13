@@ -34,7 +34,7 @@ Vamos começar montando o esquelto da nossa página:
         </form>
         <div class="form__links">
           <span class="form__checkbox">
-            <input class="form__checkbox_input" type="checkbox"> 
+            <input class="form__checkbox-input" type="checkbox"> 
             <label>Lembre-se de mim</label>
           </span>
           <span>
@@ -173,7 +173,7 @@ Como pode-se notar, neste ponto já temos uma página mas, com pouca ou nenhuma 
   height: 20px;
 }
 
-.form__checkbox_input {
+.form__checkbox-input {
   width: 20px;
   height: 20px;
 }
