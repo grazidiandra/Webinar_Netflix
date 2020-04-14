@@ -14,7 +14,9 @@ Vamos começar montando o esquelto da nossa página:
 
 ![Iron Hack](https://raw.githubusercontent.com/grazidiandra/netflix_workshop/master/images_readme/download.png)
 
-2. Dentro desse diretório você vai encontar 2 arquivos (index.html e style.css) e um diretório (images) com as imagem que vamos utilizar;
+2. Dentro desse diretório você vai encontar uma pasta com o nome de "netflix_início", ela possui 2 arquivos (index.html e style.css) e um diretório (images) com as imagem que vamos utilizar, esses arquivos estão em branco;
+
+*ps: existem mais duas pastas a "netflix_desenvolvimento" e a "netflix_concluído", essas pastas já estão com o código e serão usadas como base para o workshop.*
 
 4. Agora vamos pegar o código abaixo e colocar dentro da tag <body> no arquivo index.html (que está na raiz do nosso projeto)
 
